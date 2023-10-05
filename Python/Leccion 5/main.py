@@ -5,16 +5,12 @@
 def mi_funcion():
     print("Saludos a todos los compañeros de la Tecnicatura")
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 35e5127b0ec319c72d3b2709a5084b85b401692c
 # Llamamos a la función
 mi_funcion()
 mi_funcion()
 mi_funcion()
 
-<<<<<<< HEAD
 
 # Si queremos utilizar una función de otro módulo debemos importar
 
@@ -78,6 +74,3 @@ listarNombres("Lucas", "Jose", "Claudia", "Rosa", "Maria")
 listarNombres("Marcos", "Daniel", "Romina", "Pepe", "Marcela", "Carlos")
 
 
-=======
-# Si queremos utilizar una función de otro módulo debemos importar
->>>>>>> 35e5127b0ec319c72d3b2709a5084b85b401692c

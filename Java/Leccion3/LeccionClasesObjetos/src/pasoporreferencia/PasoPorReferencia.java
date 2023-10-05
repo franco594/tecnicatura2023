@@ -10,26 +10,27 @@ public class PasoPorReferencia {
         persona1.nombre = "Ester";
         System.out.println("persona1 nombre = " + persona1.nombre);
         cambiarValor(persona1);
-        System.out.println("El cambio que hicimos en el nombre es: " + persona1.nombre);
+        System.out.println("El cambio que hicimos en el nombre es:  " + persona1.nombre);
         persona1 = cambiarElValor(persona1);
         Persona persona2 = new Persona();
-        // Persona persona2 = null;
+        //Persona persona2 = null;
         persona2 = cambiarElValor(persona2);
-        System.out.println("El nuevo valor del objeto es: " + persona2.nombre);
+        System.out.println("El nuevo valor delobjeto es: " + persona2.nombre);
     }
     
-    public static void cambiarValor(Persona persona) { // Paso por referencia
-        persona.nombre = "María";  
-    } 
+    public static void cambiarValor(Persona persona){ // Parametro por referencia
+        persona.nombre = "María"; 
+    }
     
-    public static Persona cambiarElValor(Persona persona) {
+    public static Persona cambiarElValor(Persona persona){
         if(persona == null){
-            System.out.println("Valor de persona es invalid:  Null");
+            System.out.println("Valor de persona es invalido: ");
             return null;
         }
         else{
             persona.nombre = "Mónica";
             return persona;
         }
+        
     }
 }
